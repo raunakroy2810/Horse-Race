@@ -6,7 +6,7 @@ import random  # Import random module to generate random choices
 # Function to send the horses back to the starting line
 def starting_line(n, x):
     n.penup()  # Lift the pen so the turtle doesn't draw a line while moving
-    n.shape("minihorsebgls.gif")  # Set the turtle's shape to the horse image
+    n.shape("Horse.gif")  # Set the turtle's shape to the horse image
     n.goto(-425, x)  # Move the turtle to the starting position (x-coordinate = -425)
 
 
@@ -18,7 +18,7 @@ def move_forward(n):
 
 
 # Register the custom horse shape
-turtle.register_shape("minihorsebgls.gif")
+turtle.register_shape("Horse.gif")
 
 # Defining all the turtle objects (5 horses)
 horse_1 = Turtle()
